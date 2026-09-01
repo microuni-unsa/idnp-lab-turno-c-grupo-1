@@ -1,0 +1,32 @@
+@startuml
+skinparam monochrome false
+skinparam shadowing false
+skinparam defaultFontName sans-serif
+skinparam defaultFontSize 11
+
+skinparam state {
+  BackgroundColor #E8F0FE
+  BorderColor #1A73E8
+  FontColor #111111
+  StartColor #34A853
+  EndColor #EA4335
+}
+
+[*] --> LoginScreen : Inicio App (Marca Colegio)
+
+state "Pantalla 1: Autenticación / Selección de Rol" as LoginScreen
+state "Pantalla 2: Dashboard Padre (Rastreo GPS en vivo)" as ParentDashboard
+state "Pantalla 3: Historial y Horarios del Alumno" as ParentHistory
+state "Pantalla 4: Dashboard Conductor (Gestión de Ruta)" as DriverDashboard
+state "Pantalla 5: Registro y Escáner QR de Alumnos" as QRScanner
+state "Pantalla 6: Dashboard Administración Escolar" as AdminDashboard
+state "Pantalla 7: Asignación de Rutas, Vehículos y Alumnos" as AdminRoutes
+
+LoginScreen --> ParentDashboard : Rol Padre
+ParentDashboard --> ParentHistory : Consultar Alumno
+LoginScreen --> DriverDashboard : Rol Conductor
+DriverDashboard --> QRScanner : Registrar Subida/Bajada
+LoginScreen --> AdminDashboard : Rol Escuela-Admin
+AdminDashboard --> AdminRoutes : Configurar Rutas
+
+@enduml

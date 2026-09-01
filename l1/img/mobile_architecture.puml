@@ -1,0 +1,42 @@
+@startuml
+hide stereotype
+skinparam shadowing false
+skinparam defaultFontName "sans-serif"
+skinparam defaultFontSize 12
+
+skinparam rectangle {
+  RoundCorner 10
+  BorderThickness 1.5
+}
+
+skinparam rectangle<<main>> {
+  BackgroundColor #FCE8E6
+  BorderColor #C5221F
+  FontColor #900C3F
+}
+
+skinparam rectangle<<element>> {
+  BackgroundColor #E8F0FE
+  BorderColor #1A73E8
+  FontColor #174EA6
+}
+
+rectangle "<b>Spotify</b>\n(app híbrida de streaming multimedia)" as APP <<main>>
+
+rectangle "<b>Interfaz de usuario</b>\n\nBarra de navegación, cuadrícula\nde acceso rápido, secciones\nrecomendadas y mini-reproductor." as UI <<element>>
+
+rectangle "<b>Lógica de funcionamiento</b>\n\nDecodifica audio, gestiona búfer\nde streaming continuo y calcula\nrecomendaciones." as LOGIC <<element>>
+
+rectangle "<b>Manejo de eventos</b>\n\nDetecta toques en canciones, gestos\nen el mini-reproductor y desconexión\nde audífonos." as EVENTS <<element>>
+
+rectangle "<b>Navegación entre pantallas</b>\n\nPasa de Inicio/Búsqueda a una\nplaylist, al reproductor a pantalla\ncompleta o ajustes." as NAV <<element>>
+
+rectangle "<b>Almacenamiento de datos</b>\n\nGuarda música descargada y caché localmente;\nsincroniza playlists e historial en la nube." as DATA <<element>>
+
+APP --> UI
+APP --> LOGIC
+UI --> EVENTS
+LOGIC --> NAV
+EVENTS --> DATA
+NAV --> DATA
+@enduml

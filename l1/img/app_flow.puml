@@ -1,0 +1,33 @@
+@startuml
+skinparam monochrome false
+skinparam shadowing false
+skinparam defaultFontName sans-serif
+skinparam defaultFontSize 11
+
+skinparam state {
+  BackgroundColor #E8F0FE
+  BorderColor #1A73E8
+  FontColor #111111
+  StartColor #34A853
+  EndColor #EA4335
+}
+
+[*] --> LoginScreen : Inicio de App
+
+state "Pantalla 1: Login / Registro" as LoginScreen
+state "Pantalla 2: Dashboard Principal" as Dashboard
+state "Pantalla 3: Búsqueda y Filtro de Especialidad" as SearchScreen
+state "Pantalla 4: Selección de Fecha, Hora y Médico" as SlotSelectionScreen
+state "Pantalla 5: Confirmación y Ticket Digital QR" as TicketScreen
+state "Pantalla 6: Historial y Gestión de Citas" as HistoryScreen
+
+LoginScreen --> Dashboard : Autenticación Exitosa (DNI)
+Dashboard --> SearchScreen : Presiona "Reservar Nuevo Turno"
+Dashboard --> HistoryScreen : Presiona "Ver Mis Citas"
+SearchScreen --> SlotSelectionScreen : Selecciona Centro y Especialidad
+SlotSelectionScreen --> TicketScreen : Confirma Datos y Horario
+TicketScreen --> Dashboard : Regresa al Inicio / Genera Notificación
+HistoryScreen --> Dashboard : Regresar
+HistoryScreen --> TicketScreen : Ver Ticket / Reagendar Cita
+
+@enduml
