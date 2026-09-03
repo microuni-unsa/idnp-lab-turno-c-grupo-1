@@ -232,11 +232,11 @@
   #set par(justify: true)
   = CONCLUSIONES
 
-  - En esta práctica de laboratorio se analizaron los conceptos teóricos y estructurales que fundamentan el desarrollo de aplicaciones móviles modernas, identificando cómo las limitaciones de hardware y los requisitos de movilidad imponen arquitecturas desacopladas y eficientes. La separación de responsabilidades entre la interfaz de usuario, la lógica de negocio, los eventos, la navegación y la capa de datos es indispensable para construir soluciones escalables, mantenibles y preparadas para entornos heterogéneos.
+  - El desarrollo móvil demanda un pensamiento desacoplado (interfaz, lógica, eventos, navegación y datos) no como preferencia de diseño, sino como una necesidad impuesta por las restricciones físicas de hardware, memoria y conectividad variable.
 
-  - El estudio comparativo realizado entre aplicaciones móviles, web y de escritorio evidenció que el ecosistema móvil destaca por su integración nativa con sensores, el funcionamiento _offline_ mediante almacenamiento local y la interacción en tiempo real a través de notificaciones _push_. Asimismo, el surgimiento de nuevas plataformas multiplataforma como Flutter y React Native ha optimizado los costos de producción y tiempos de distribución, permitiendo reutilizar código sin comprometer el rendimiento.
+  - La selección entre paradigmas nativos, híbridos o web busca el balance de compromisos técnicos entre rendimiento, acceso al hardware y costos de desarrollo y mantenimiento. La adopción de una solución móvil se justifica cuando el valor depende de la integración profunda, persistencia y comunicación en tiempo real, pero los _frameworks_ multiplataforma actuales ofrecen una alternativa viable.
 
-  - La propuesta conceptual de la aplicación móvil MiUnib permitió sintetizar los componentes esenciales de interfaz, eventos, navegación y gestión de datos en una solución orientada a una necesidad real. Este diseño servirá como base funcional para ser desarrollada y refinada progresivamente en los laboratorios de las unidades posteriores.
+  - La descomposición de una aplicación antes de iniciar la codificación previene defectos arquitectónicos y sobrecarga de estado. La importancia de correlacionar eventos con modelos de datos sincronizados permite afrontar desarrollos iterativos de mayor envergadura.
 ]
 
 #lab-section("RETROALIMENTACIÓN GENERAL")[
