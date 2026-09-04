@@ -25,7 +25,7 @@
 
   Una aplicación móvil es un tipo de software desarrollado específicamente para ejecutarse en dispositivos portátiles @sommerville2016. A diferencia del software de escritorio tradicional, una aplicación móvil se diseña optimizando el consumo de energía, la memoria RAM restringida, el procesamiento en arquitecturas heterogéneas y la interacción táctil en pantallas de tamaño reducido @phillips2022. Asimismo, aprovecha de forma nativa los sensores y periféricos del dispositivo @android_architecture_2024.
 
-  El concepto de nuevas plataformas de desarrollo comprende el conjunto moderno de _frameworks_, entornos de ejecución y lenguajes de programación para facilitar la creación de aplicaciones multiplataforma a partir de una única base de código @biornhansen2020. Ejemplos destacados en la industria actual son Flutter, React Native, Kotlin Multiplatform y entornos de desarrollo _Low-Code/No-Code_. Estas plataformas emplean tecnologías optimizadas para generar ejecutables nativos.
+  El concepto de nuevas plataformas de desarrollo comprende el conjunto moderno de frameworks, entornos de ejecución y lenguajes de programación para facilitar la creación de aplicaciones multiplataforma a partir de una única base de código @biornhansen2020. Ejemplos destacados en la industria actual son Flutter, React Native, Kotlin Multiplatform y entornos de desarrollo Low-Code/No-Code. Estas plataformas emplean tecnologías optimizadas para generar ejecutables nativos.
 
   Los dispositivos portátiles se han convertido en el principal canal de acceso a internet a nivel mundial, representando más del 58% del tráfico web global y superando los 6.8 mil millones de usuarios activos @statista2024 @itu2024. Estos transformaron sectores como la banca digital, el comercio electrónico, la telemedicina, la educación virtual y los servicios gubernamentales @pressman2020. Las aplicaciones móviles ofrecen a las organizaciones la capacidad de interactuar en tiempo real con sus usuarios mediante notificaciones, servicios basados en localización y experiencias personalizadas @android_architecture_2024.
 
@@ -45,14 +45,14 @@
         table.cell(fill: rgb("#E5E7EB"))[*Aplicación de Escritorio*],
       ),
       [*Dispositivo de ejecución*],
-      [Teléfonos inteligentes, tabletas, _smartwatches_ y dispositivos portátiles.],
+      [Teléfonos inteligentes, tabletas, smartwatches y dispositivos portátiles.],
       [Navegadores web en cualquier dispositivo.],
       [Computadoras de escritorio, portátiles y servidores de trabajo.],
 
       [*Conexión a internet*],
-      [Opción _offline_ con persistencia local, sincronización al recuperar red.],
+      [Opción offline con persistencia local, sincronización al recuperar red.],
       [Requerida de forma continua.],
-      [Funciona principalmente _offline_, conexión opcional según el servicio.],
+      [Funciona principalmente offline, conexión opcional según el servicio.],
 
       [*Instalación y distribución*],
       [Descarga e instalación previa desde tiendas oficiales.],
@@ -74,19 +74,19 @@
 
   == Ejercicio 3: Explica cuáles son las partes básicas de una aplicación móvil (interfaz, lógica, eventos, navegación, datos), siguiendo el mismo procedimiento del ejercicio resuelto por el docente. Acompaña tu explicación con un esquema o diagrama propio.
 
-  Para explicar la estructura básica de una aplicación móvil y sus cinco elementos fundamentales, se aplica el procedimiento metódico de 7 pasos propuesto en la guía práctica, tomando como objeto de estudio la aplicación *Spotify* @sommerville2016 @android_architecture_2024:
+  Para explicar la estructura básica de una aplicación móvil y sus cinco elementos fundamentales, se aplica el procedimiento metódico de 7 pasos propuesto en la guía práctica, tomando como objeto de estudio la aplicación Spotify @sommerville2016 @android_architecture_2024:
 
-  *Paso 1. Identificar el tipo de aplicación.* *Spotify* es una aplicación híbrida multiplataforma: reutiliza un núcleo de interfaz y lógica común para la gestión de catálogos y playlists, pero se distribuye e instala de forma nativa en Android e iOS, ofreciendo acceso directo al hardware del dispositivo para la decodificación de audio, notificaciones y conexión a periféricos multimedia @biornhansen2020.
+  *Paso 1. Identificar el tipo de aplicación.* Spotify es una aplicación híbrida multiplataforma: reutiliza un núcleo de interfaz y lógica común para la gestión de catálogos y playlists, pero se distribuye e instala de forma nativa en Android e iOS, ofreciendo acceso directo al hardware del dispositivo para la decodificación de audio, notificaciones y conexión a periféricos multimedia @biornhansen2020.
 
-  *Paso 2. Describir su interfaz de usuario.* Está compuesta por la barra de navegación inferior (Inicio, Búsqueda, Tu Biblioteca, Premium), la cuadrícula de acceso rápido, secciones recomendadas, filtros de contenido y el mini-reproductor flotante (_Bottom Sheet_) con controles de reproducción @apple_hig_2024.
+  *Paso 2. Describir su interfaz de usuario.* Está compuesta por la barra de navegación inferior (Inicio, Búsqueda, Tu Biblioteca, Premium), la cuadrícula de acceso rápido, secciones recomendadas, filtros de contenido y el mini-reproductor flotante con controles de reproducción @apple_hig_2024.
 
-  *Paso 3. Describir su lógica de funcionamiento.* Se encarga de decodificar y procesar los flujos de audio en _streaming_, gestionar el búfer de reproducción continua, calcular recomendaciones personalizadas y coordinar la transmisión de sonido en tiempo real.
+  *Paso 3. Describir su lógica de funcionamiento.* Se encarga de decodificar y procesar los flujos de audio en streaming, gestionar el búfer de reproducción continua, calcular recomendaciones personalizadas y coordinar la transmisión de sonido en tiempo real.
 
   *Paso 4. Describir el manejo de eventos.* La aplicación responde a toques táctiles en tarjetas de contenido para reproducir temas, gestos en el mini-reproductor para cambiar de canción, selecciones de navegación y eventos del sistema como la desconexión de audífonos.
 
   *Paso 5. Describir la navegación entre pantallas.* El usuario pasa de la pantalla de Inicio o Búsqueda hacia el detalle de una playlist o álbum, y desde allí al reproductor a pantalla completa, a la vista de letras o a los ajustes de calidad.
 
-  *Paso 6. Describir el almacenamiento de datos.* Las canciones descargadas para modo _offline_, la memoria caché e imágenes se guardan localmente en el dispositivo, mientras que las listas guardadas, canciones marcadas y el historial se sincronizan en la nube.
+  *Paso 6. Describir el almacenamiento de datos.* Las canciones descargadas para modo offline, la memoria caché e imágenes se guardan localmente en el dispositivo, mientras que las listas guardadas, canciones marcadas y el historial se sincronizan en la nube.
 
   *Paso 7. Organizar el análisis en un esquema que resuma los cinco elementos identificados.* En la @fig-mobile-arch se ilustra el esquema de arquitectura y el flujo de comunicación entre los componentes fundamentales de la aplicación.
 
@@ -97,7 +97,7 @@
 
   == Ejercicio 4: Análisis de Aplicaciones Móviles de Uso Frecuente
 
-  En la @tabla-apps-frecuentes se presenta el análisis detallado de seis aplicaciones móviles populares de uso frecuente junto a sus respectivas capturas de interfaz, detallando su finalidad, perfil de usuario, funciones principales y los componentes visuales de interfaz (_widgets_ y contenedores) que implementan @apple_hig_2024.
+  En la @tabla-apps-frecuentes se presenta el análisis detallado de seis aplicaciones móviles populares de uso frecuente junto a sus respectivas capturas de interfaz, detallando su finalidad, perfil de usuario, funciones principales y los componentes visuales de interfaz que implementan @apple_hig_2024.
   #[
     #show figure.where(kind: table): set block(breakable: true)
     #set table.cell(breakable: false)
@@ -134,10 +134,10 @@
           #v(3pt)
           #align(center)[#image("img/spotify.jpeg", width: 70%)]
         ],
-        [Reproducción de música y podcasts en _streaming_.],
+        [Reproducción de música y podcasts en streaming.],
         [Amantes de la música y oyentes de podcasts.],
         [Búsqueda de canciones, reproducción en segundo plano, playlists, descargas.],
-        [`CardView`, reproductor flotante (_Bottom Sheet_), barras de progreso, listas de desplazamiento.],
+        [`CardView`, reproductor flotante, barras de progreso, listas de desplazamiento.],
 
         [
           *Google Maps*\
@@ -167,7 +167,7 @@
         [Micropagos digitales y transferencias inmediatas.],
         [Usuarios bancarizados, comerciantes y público general.],
         [Transferencia por número de celular, pago con código QR, recargas de servicios.],
-        [Teclado numérico personalizado, `ImageView` para código QR, tarjetas de saldo, alertas _toast_.],
+        [Teclado numérico personalizado, `ImageView` para código QR, tarjetas de saldo, alertas toast.],
 
         [
           *Notion*\
@@ -234,13 +234,13 @@
 
   - El desarrollo móvil demanda un pensamiento desacoplado (interfaz, lógica, eventos, navegación y datos) no como preferencia de diseño, sino como una necesidad impuesta por las restricciones físicas de hardware, memoria y conectividad variable.
 
-  - La selección entre paradigmas nativos, híbridos o web busca el balance de compromisos técnicos entre rendimiento, acceso al hardware y costos de desarrollo y mantenimiento. La adopción de una solución móvil se justifica cuando el valor depende de la integración profunda, persistencia y comunicación en tiempo real, pero los _frameworks_ multiplataforma actuales ofrecen una alternativa viable.
+  - La selección entre paradigmas nativos, híbridos o web busca el balance de compromisos técnicos entre rendimiento, acceso al hardware y costos de desarrollo y mantenimiento. La adopción de una solución móvil se justifica cuando el valor depende de la integración profunda, persistencia y comunicación en tiempo real, pero los frameworks multiplataforma actuales ofrecen una alternativa viable.
 
   - La descomposición de una aplicación antes de iniciar la codificación previene defectos arquitectónicos y sobrecarga de estado. La importancia de correlacionar eventos con modelos de datos sincronizados permite afrontar desarrollos iterativos de mayor envergadura.
 ]
 
 #lab-section("RETROALIMENTACIÓN GENERAL")[
-  #v(6em)
+  #block(height: 6em, breakable: false)
 ]
 
 #lab-section("REFERENCIAS Y BIBLIOGRAFÍA")[

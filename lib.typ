@@ -341,8 +341,8 @@
   set list(indent: 1em, marker: "-")
   set enum(numbering: "1.")
   set image(width: 90%)
-  set figure(supplement: [Figura])
   show image: set align(center)
+  set text(lang: "es")
 
   set page(
     paper: "a4",
