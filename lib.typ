@@ -341,6 +341,7 @@
   set list(indent: 1em, marker: "-")
   set enum(numbering: "1.")
   set image(width: 90%)
+  show link: set text(fill: blue)
   show image: set align(center)
   set text(lang: "es")
 
