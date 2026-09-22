@@ -1,0 +1,54 @@
+[[scopes]]
+  name = "@unsareport"
+
+  [[scopes.files]]
+    path = "tsconfig.json"
+    sha256 = "c48fa4bd12f60ebd37f627d5ca4f33eb53eaace38742d518cfa277a3960cb62d"
+
+[[pkg]]
+  name = "@unsareport/epis-lab"
+  version = "0.1.1"
+
+  [[pkg.files]]
+    path = "img/abet.png"
+    sha256 = "3323246a7efb9d7cb3930bc9012a6d741f75e6641cec7bc484802c321c37ccbc"
+
+  [[pkg.files]]
+    path = "img/epis.png"
+    sha256 = "21503da115acbfa0afadc9d10d870a67cb51e0cf7e5eb07e576119486729e7e8"
+
+  [[pkg.files]]
+    path = "lib.typ"
+    sha256 = "6dfd7f3e1cb1c5b33026c68aa539b0c68a0b5b700754b01cb133a7b9501ed8ea"
+
+  [[pkg.files]]
+    path = "scripts/copy_report.ts"
+    sha256 = "b4dcc82ea06ec3b2481c5d28cb1ee9d1a431f5e654265a36c8c36634b6f51175"
+
+[[pkg]]
+  name = "@unsareport/define"
+  version = "0.1.1"
+
+  [[pkg.files]]
+    path = "lib.typ"
+    sha256 = "e8cb895bbadeda6fd3985fbe64977da11c58a1bd22199f6dc727ba3e55d8aa5c"
+
+  [[pkg.files]]
+    path = "scripts/read-vars.ts"
+    sha256 = "3ef0c4c5167e8b17e8e5efcdc4d6ad5932f56f4e097d16867cb7ea96f064bc6b"
+
+[[pkg]]
+  name = "@unsareport/epis-lab-theming"
+  version = "0.1.0"
+
+  [[pkg.files]]
+    path = "lib.typ"
+    sha256 = "3f999449bfc59ba2a45085900024f7bf69a19f0c31d34b847f456e6020525f2c"
+
+[[pkg]]
+  name = "@unsareport/gdocs-code-block"
+  version = "0.1.0"
+
+  [[pkg.files]]
+    path = "lib.typ"
+    sha256 = "fb130f04f992930c96325c6d9d8eeda99d798f2035d18631011bc47ea6212aa8"
