@@ -7,7 +7,12 @@
 
 [[pkg]]
   name = "@unsareport/epis-lab"
-  version = "0.1.1"
+  version = "0.2.0"
+  depends_on = ["@unsareport/define ^0.2.0", "@unsareport/epis-lab-theming ^0.2.0", "@unsareport/gdocs-code-block ^0.2.0"]
+
+  [[pkg.files]]
+    path = "README.md"
+    sha256 = "c2c4beed06e5281b439d7ca4f84c27c004ff7331de680de7426d55b300426508"
 
   [[pkg.files]]
     path = "img/abet.png"
@@ -23,31 +28,51 @@
 
   [[pkg.files]]
     path = "scripts/copy_report.ts"
-    sha256 = "b4dcc82ea06ec3b2481c5d28cb1ee9d1a431f5e654265a36c8c36634b6f51175"
+    sha256 = "636e16c6b600f7ec1671aa466179a71359f5423becd469c8bf136c4de240ea0d"
+
+  [[pkg.files]]
+    path = "tsconfig.unsareport.json"
+    sha256 = "d8d81440d344bd419f8b4e62d936916410066454d220f8c852bfee37a7062b13"
 
 [[pkg]]
   name = "@unsareport/define"
-  version = "0.1.1"
+  version = "0.2.0"
+
+  [[pkg.files]]
+    path = "README.md"
+    sha256 = "05fc8bc56c403d1cbee82c8149301f7c92380cff0131a698695f9e877382d5da"
 
   [[pkg.files]]
     path = "lib.typ"
-    sha256 = "e8cb895bbadeda6fd3985fbe64977da11c58a1bd22199f6dc727ba3e55d8aa5c"
+    sha256 = "a716ed3824fb8015ab0b74c231f9c9f4fcbc2d31fce3ab5df35acc9462ac14f7"
 
   [[pkg.files]]
     path = "scripts/read-vars.ts"
-    sha256 = "3ef0c4c5167e8b17e8e5efcdc4d6ad5932f56f4e097d16867cb7ea96f064bc6b"
+    sha256 = "d31f0dfa532b27e297f1ca7da48f2c87fc03eb9f73951fb742259bfd11094d95"
+
+  [[pkg.files]]
+    path = "tsconfig.unsareport.json"
+    sha256 = "d8d81440d344bd419f8b4e62d936916410066454d220f8c852bfee37a7062b13"
 
 [[pkg]]
   name = "@unsareport/epis-lab-theming"
-  version = "0.1.0"
+  version = "0.2.0"
+
+  [[pkg.files]]
+    path = "README.md"
+    sha256 = "26e94646976c4fc34532d3ee98695abfb48c6b1fbfbb31218329ae33143b51bc"
 
   [[pkg.files]]
     path = "lib.typ"
-    sha256 = "3f999449bfc59ba2a45085900024f7bf69a19f0c31d34b847f456e6020525f2c"
+    sha256 = "442c4285a6f6df906d29c244ecd85ae2994a13c58ea11829370dc787a26850dc"
 
 [[pkg]]
   name = "@unsareport/gdocs-code-block"
-  version = "0.1.0"
+  version = "0.2.0"
+
+  [[pkg.files]]
+    path = "README.md"
+    sha256 = "bc4dcab3868a7a111a6b952c11ff91e8cc1738695600dd3c541d76ea0d310416"
 
   [[pkg.files]]
     path = "lib.typ"

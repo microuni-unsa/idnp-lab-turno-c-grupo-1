@@ -1,4 +1,4 @@
-#import "/lib.typ": code-block, lab-section, table-border-width, unsa-report
+#import "/components/@unsareport/epis-lab/lib.typ": code-block, lab-section, table-border-width, unsa-report
 
 #show: unsa-report.with(
   course_name: "Introducción al Desarrollo de Nuevas Plataformas",
@@ -8,6 +8,10 @@
   members: (
     "Mestas Zegarra Christian Raul",
     "Noa Camino Yenaro Joel",
+  ),
+  custom_variables: (
+    course_abbr: "IDNP",
+    members_short: "Mestas, Noa",
   ),
 )
 

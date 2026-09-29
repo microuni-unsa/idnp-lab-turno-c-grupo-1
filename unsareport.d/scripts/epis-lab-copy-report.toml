@@ -3,4 +3,4 @@ description = "Copy compiled report to a formatted filename based on exported me
 origin = "@unsareport/epis-lab"
 
 [commands]
-  any = "bun components/@unsareport/epis-lab/scripts/copy_report.ts"
+  any = "bun run --tsconfig-override tsconfig.unsareport.json components/@unsareport/epis-lab/scripts/copy_report.ts"
