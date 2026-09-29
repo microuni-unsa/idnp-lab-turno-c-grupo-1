@@ -1,0 +1,8 @@
+09-22 09:00:43.419  5499  5499 D BatteryScreen: Receiver registrado
+09-22 09:00:43.420  5499  5499 D BatteryScreen: Receiver manual registrado
+09-22 09:00:43.680  5499  5499 D BatteryScreen: Nivel: 100% carga=false
+09-22 09:01:12.033  5499  5499 D BatteryScreen: Nivel: 35% carga=false
+09-22 09:01:50.842  5499  5499 D BatteryScreen: Actualizacion manual: 35%
+09-22 09:02:00.547  5499  5499 D BatteryScreen: Nivel: 35% carga=true
+09-22 09:02:00.588  5499  5499 D BatteryScreen: Nivel: 35% carga=true
+09-22 09:02:07.024  5499  5499 D BatteryScreen: Nivel: 100% carga=false
