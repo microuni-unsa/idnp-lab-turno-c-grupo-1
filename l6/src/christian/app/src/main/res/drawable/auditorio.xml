@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Sky background -->
+    <path
+        android:fillColor="#F3E5F5"
+        android:pathData="M0,0h200v200h-200z" />
+    <!-- Ground -->
+    <path
+        android:fillColor="#E1BEE7"
+        android:pathData="M0,150h200v50h-200z" />
+    <!-- Dome roof -->
+    <path
+        android:fillColor="#6A1B9A"
+        android:pathData="M40,75 C40,40 160,40 160,75 Z" />
+    <!-- Main Hall structure -->
+    <path
+        android:fillColor="#8E24AA"
+        android:pathData="M35,75h130v75h-130z" />
+    <!-- Pillars -->
+    <path
+        android:fillColor="#BA68C8"
+        android:pathData="M45,78h12v72h-12z M75,78h12v72h-12z M113,78h12v72h-12z M143,78h12v72h-12z" />
+    <!-- Main grand entrance -->
+    <path
+        android:fillColor="#CE93D8"
+        android:pathData="M87,105h26v45h-26z" />
+</vector>

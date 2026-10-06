@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Sky background -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M0,0h200v200h-200z" />
+    <!-- Ground -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:pathData="M0,150h200v50h-200z" />
+    <!-- Building main block -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M30,60h140v90h-140z" />
+    <!-- Roof accent -->
+    <path
+        android:fillColor="#1B5E20"
+        android:pathData="M25,50h150v12h-150z" />
+    <!-- Center entrance -->
+    <path
+        android:fillColor="#81C784"
+        android:pathData="M85,110h30v40h-30z" />
+    <!-- Windows Row 1 -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M42,75h22v22h-22z M72,75h22v22h-22z M106,75h22v22h-22z M136,75h22v22h-22z" />
+    <!-- Windows Row 2 -->
+    <path
+        android:fillColor="#A5D6A7"
+        android:pathData="M42,110h22v22h-22z M136,110h22v22h-22z" />
+</vector>

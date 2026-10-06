@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="432dp"
+    android:height="432dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Fondo naranja Comedor -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- Plato -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,54m-26,0a26,26 0,1 1,52 0a26,26 0,1 1,-52 0" />
+    <path
+        android:fillColor="#EF6C00"
+        android:pathData="M54,54m-17,0a17,17 0,1 1,34 0a17,17 0,1 1,-34 0" />
+    <!-- Cubiertos: tenedor izq -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M14,30h4v28h-4z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M12,30h8v6h-8z" />
+    <!-- Cuchillo der -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M90,30h4v28h-4z" />
+    <!-- Mesa -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M20,86h68v6h-68z" />
+</vector>
