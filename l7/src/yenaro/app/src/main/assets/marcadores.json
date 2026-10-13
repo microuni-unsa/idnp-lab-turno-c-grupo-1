@@ -1,0 +1,30 @@
+[
+  {
+    "fx": 0.25,
+    "fy": 0.22,
+    "radioDp": 18.0,
+    "titulo": "Lab. Cómputo 1",
+    "descripcion": "Laboratorio de cómputo 1 del Pabellón de Sistemas. 24 PCs, proyector y mobiliario fijo."
+  },
+  {
+    "fx": 0.75,
+    "fy": 0.22,
+    "radioDp": 18.0,
+    "titulo": "Lab. Cómputo 2",
+    "descripcion": "Laboratorio de cómputo 2 del Pabellón de Sistemas. 24 PCs y pizarra interactiva."
+  },
+  {
+    "fx": 0.25,
+    "fy": 0.72,
+    "radioDp": 18.0,
+    "titulo": "Aula 201",
+    "descripcion": "Aula 201 del Pabellón de Sistemas. Aforo 40 estudiantes, mobiliario fijo."
+  },
+  {
+    "fx": 0.75,
+    "fy": 0.72,
+    "radioDp": 18.0,
+    "titulo": "Patio Central",
+    "descripcion": "Patio central del Pabellón de Sistemas. Zona de encuentro y exposiciones."
+  }
+]
