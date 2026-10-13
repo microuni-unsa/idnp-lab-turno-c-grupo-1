@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lab_101",
+    "titulo": "Lab 101",
+    "descripcion": "Laboratorio de computación 1 y desarrollo de software.",
+    "salaIndex": 0
+  },
+  {
+    "id": "lab_102",
+    "titulo": "Lab 102",
+    "descripcion": "Laboratorio de computación 2, redes y sistemas distribuidos.",
+    "salaIndex": 1
+  },
+  {
+    "id": "aula_103",
+    "titulo": "Aula 103",
+    "descripcion": "Aula de clases teóricas para la carrera de Sistemas.",
+    "salaIndex": 2
+  },
+  {
+    "id": "patio_central",
+    "titulo": "Patio Central",
+    "descripcion": "Zona abierta de descanso y estudio al aire libre.",
+    "salaIndex": 3
+  }
+]
