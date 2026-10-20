@@ -1,0 +1,10 @@
+[
+  {"id": 1, "nombre": "Biblioteca Central", "categoria": "Servicios", "descripcion": "Préstamo de libros y salas de estudio"},
+  {"id": 2, "nombre": "Comedor Universitario", "categoria": "Servicios", "descripcion": "Alimentación para estudiantes"},
+  {"id": 3, "nombre": "Facultad de Ingeniería", "categoria": "Académico", "descripcion": "Aulas y laboratorios de ingeniería"},
+  {"id": 4, "nombre": "Facultad de Ciencias", "categoria": "Académico", "descripcion": "Aulas y laboratorios de ciencias"},
+  {"id": 5, "nombre": "Coliseo Universitario", "categoria": "Deportes", "descripcion": "Actividades deportivas y eventos"},
+  {"id": 6, "nombre": "Auditorio Central", "categoria": "Eventos", "descripcion": "Conferencias y ceremonias"},
+  {"id": 7, "nombre": "Pabellón de Sistemas", "categoria": "Académico", "descripcion": "Aulas y laboratorios de la EPIS"},
+  {"id": 8, "nombre": "Rectorado", "categoria": "Servicios", "descripcion": "Oficinas administrativas centrales"}
+]

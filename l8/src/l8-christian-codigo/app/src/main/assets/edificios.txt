@@ -1,0 +1,8 @@
+1|Biblioteca Central|Servicios|Préstamo de libros y salas de estudio
+2|Comedor Universitario|Servicios|Alimentación para estudiantes
+3|Facultad de Ingeniería de Producción y Servicios|Académico|Aulas y laboratorios de ingeniería
+4|Facultad de Ciencias Naturales y Formales|Académico|Aulas y laboratorios de ciencias
+5|Pabellón de Ingeniería de Sistemas|Académico|Aulas y laboratorios de sistemas
+6|Coliseo Universitario|Deportes|Actividades deportivas y eventos
+7|Estadio Universitario|Deportes|Canchas y competencias deportivas
+8|Auditorio Central|Eventos|Conferencias y ceremonias
