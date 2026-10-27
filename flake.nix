@@ -47,10 +47,10 @@
               android-tools
               jdk21
               gradle
-              bun
             ])
             (with unstable; [
               typst
+              bun
               typstyle
               android-cli
               tinymist
